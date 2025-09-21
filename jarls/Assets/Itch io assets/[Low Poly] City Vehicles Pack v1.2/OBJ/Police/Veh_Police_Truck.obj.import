@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://k737rju7n6xc"
+path="res://.godot/imported/Veh_Police_Truck.obj-5fca94fda4c240443c89c54e0ba3f42f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Veh_Police_Truck.obj-5fca94fda4c240443c89c54e0ba3f42f.mesh"]
+
+source_file="res://Assets/Itch io assets/[Low Poly] City Vehicles Pack v1.2/OBJ/Police/Veh_Police_Truck.obj"
+dest_files=["res://.godot/imported/Veh_Police_Truck.obj-5fca94fda4c240443c89c54e0ba3f42f.mesh", "res://.godot/imported/Veh_Police_Truck.obj-5fca94fda4c240443c89c54e0ba3f42f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://dawh3jho5kq6u"]
+
+[ext_resource type="PackedScene" uid="uid://cqrklnxamyxgx" path="res://Assets/Edited Itch io assets/sample_2.tscn" id="1_0bisf"]
+[ext_resource type="PackedScene" uid="uid://wi8o4ylvhwip" path="res://Assets/Edited Itch io assets/ground.tscn" id="2_0bisf"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_0bisf"]
+
+[node name="House1" type="Node3D"]
+
+[node name="Sample 2" parent="." instance=ExtResource("1_0bisf")]
+
+[node name="ground" parent="." instance=ExtResource("2_0bisf")]
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, 0, -52)
+
+[node name="Ground Floor" type="StaticBody3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 8)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground Floor"]
+shape = SubResource("WorldBoundaryShape3D_0bisf")

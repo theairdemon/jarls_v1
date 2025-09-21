@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://csojk52qxyoa4"]
+
+[ext_resource type="PackedScene" uid="uid://dawh3jho5kq6u" path="res://Scenes/house_1.tscn" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://b7n46b0m01jg3" path="res://Scenes/player.tscn" id="2_bo1nx"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_bo1nx"]
+
+[node name="Main" type="Node3D"]
+
+[node name="House1" parent="." instance=ExtResource("1_jjgbg")]
+
+[node name="Player" parent="." instance=ExtResource("2_bo1nx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.15196, 8.23134)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.767727, 0.5468, -0.334072, -0.421674, 0.82368, 0.379133, 0.482478, -0.150201, 0.862934, -0.288268, 0.30715, 0)
+light_color = Color(0.898811, 0.828413, 0.833199, 1)
+
+[node name="MasterGround" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MasterGround"]
+transform = Transform3D(100, 0, 0, 0, 100, 0, 0, 0, 100, 0, 0, 0)
+shape = SubResource("WorldBoundaryShape3D_bo1nx")

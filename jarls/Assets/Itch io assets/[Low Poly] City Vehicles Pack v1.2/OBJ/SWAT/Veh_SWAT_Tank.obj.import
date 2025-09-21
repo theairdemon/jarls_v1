@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c2lu76q8gu4a8"
+path="res://.godot/imported/Veh_SWAT_Tank.obj-775b46a80b72083a49642dd17fa3e44a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Veh_SWAT_Tank.obj-775b46a80b72083a49642dd17fa3e44a.mesh"]
+
+source_file="res://Assets/Itch io assets/[Low Poly] City Vehicles Pack v1.2/OBJ/SWAT/Veh_SWAT_Tank.obj"
+dest_files=["res://.godot/imported/Veh_SWAT_Tank.obj-775b46a80b72083a49642dd17fa3e44a.mesh", "res://.godot/imported/Veh_SWAT_Tank.obj-775b46a80b72083a49642dd17fa3e44a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

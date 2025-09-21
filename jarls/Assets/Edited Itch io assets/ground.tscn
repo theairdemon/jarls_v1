@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://wi8o4ylvhwip"]
+
+[ext_resource type="PackedScene" uid="uid://b1i57ureu01mf" path="res://Assets/Itch io assets/Free 3D Modular Game Assets For Prototyping/Pieces/ground.fbx" id="1_13wpx"]
+[ext_resource type="Material" uid="uid://wtkcfuv2ck2s" path="res://Assets/Edited Itch io assets/materials/test floors brown.tres" id="2_ixm26"]
+
+[node name="ground" instance=ExtResource("1_13wpx")]
+
+[node name="ground" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_ixm26")

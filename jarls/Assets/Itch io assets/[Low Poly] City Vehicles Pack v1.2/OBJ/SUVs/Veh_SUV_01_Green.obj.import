@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cd304b55r0q34"
+path="res://.godot/imported/Veh_SUV_01_Green.obj-61b16dc2d9318dbf3adc60e0f8c5b1ea.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Veh_SUV_01_Green.obj-61b16dc2d9318dbf3adc60e0f8c5b1ea.mesh"]
+
+source_file="res://Assets/Itch io assets/[Low Poly] City Vehicles Pack v1.2/OBJ/SUVs/Veh_SUV_01_Green.obj"
+dest_files=["res://.godot/imported/Veh_SUV_01_Green.obj-61b16dc2d9318dbf3adc60e0f8c5b1ea.mesh", "res://.godot/imported/Veh_SUV_01_Green.obj-61b16dc2d9318dbf3adc60e0f8c5b1ea.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

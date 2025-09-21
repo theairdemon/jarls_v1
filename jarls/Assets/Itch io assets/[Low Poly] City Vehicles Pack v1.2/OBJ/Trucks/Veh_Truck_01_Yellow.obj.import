@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dw5f77sx1tiwv"
+path="res://.godot/imported/Veh_Truck_01_Yellow.obj-eda9e58ee30e0cb06e58442aa6cfc1dd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Veh_Truck_01_Yellow.obj-eda9e58ee30e0cb06e58442aa6cfc1dd.mesh"]
+
+source_file="res://Assets/Itch io assets/[Low Poly] City Vehicles Pack v1.2/OBJ/Trucks/Veh_Truck_01_Yellow.obj"
+dest_files=["res://.godot/imported/Veh_Truck_01_Yellow.obj-eda9e58ee30e0cb06e58442aa6cfc1dd.mesh", "res://.godot/imported/Veh_Truck_01_Yellow.obj-eda9e58ee30e0cb06e58442aa6cfc1dd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

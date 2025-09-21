@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://dmnr6hmcyfcli"]
+
+[ext_resource type="PackedScene" uid="uid://ca2f0nvi5g6l6" path="res://Assets/Itch io assets/Free Medieval 3D People Low Poly Pack/fbx/people_unity/city_dwellers_1.fbx" id="1_yutf2"]
+[ext_resource type="Texture2D" uid="uid://r2fhfdf216jq" path="res://Assets/Itch io assets/Free Medieval 3D People Low Poly Pack/texture/people_texture_map.png" id="2_4etu4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tlwd0"]
+albedo_texture = ExtResource("2_4etu4")
+
+[node name="city_dwellers_1" instance=ExtResource("1_yutf2")]
+
+[node name="ciry_dwellers_1" parent="Armature/Skeleton3D" index="0"]
+surface_material_override/0 = SubResource("StandardMaterial3D_tlwd0")

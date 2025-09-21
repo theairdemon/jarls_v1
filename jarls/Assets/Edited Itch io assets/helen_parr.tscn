@@ -1,0 +1,80 @@
+[gd_scene load_steps=4 format=3 uid="uid://funph811wiec"]
+
+[ext_resource type="PackedScene" uid="uid://dtnmbm1w7hdu6" path="res://Assets/Itch io assets/Helen Parr.glb" id="1_rbkv6"]
+[ext_resource type="Material" uid="uid://0o6mgmtc84c3" path="res://Assets/Edited Itch io assets/materials/helen parr face.tres" id="2_n6e0v"]
+[ext_resource type="Material" uid="uid://uw1yybuqlxl8" path="res://Assets/Edited Itch io assets/materials/helen parr body.tres" id="2_n8dbs"]
+
+[node name="Helen Parr" instance=ExtResource("1_rbkv6")]
+
+[node name="Helen metarig" parent="." index="0"]
+visible = false
+
+[node name="Hair_Full" parent="Helen rig/Skeleton3D" index="0"]
+transform = Transform3D(1, 1.06582e-14, 1.20792e-13, -1.7764e-15, 1, -3.43719e-07, -2.06057e-13, 3.28818e-07, 1, 8.45368e-15, 5.96046e-07, -1.16415e-07)
+
+[node name="teeth Top" parent="Helen rig/Skeleton3D" index="1"]
+transform = Transform3D(1, -5.59551e-14, -5.5067e-14, 4.70734e-14, 1, 1.49012e-08, 1.24344e-14, 5.2154e-08, 1, 7.33249e-14, 0, -2.83122e-07)
+
+[node name="teeth Bot" parent="Helen rig/Skeleton3D" index="2"]
+transform = Transform3D(1, 7.63833e-13, -1.76214e-12, -7.72714e-13, 1, 3.72529e-07, 1.71951e-12, -3.05474e-07, 0.999999, 1.40836e-12, 0, 4.02331e-07)
+
+[node name="NEW Eye L" parent="Helen rig/Skeleton3D" index="3"]
+transform = Transform3D(1, -6.35731e-08, -5.3279e-14, 6.35731e-08, 1, 1.86983e-08, 1.37206e-14, 4.8357e-08, 1, 0.0508683, 1.6755, 0.0892568)
+
+[node name="NEW Eye R" parent="Helen rig/Skeleton3D" index="4"]
+transform = Transform3D(1, -6.35731e-08, -5.3279e-14, 6.35731e-08, 1, 1.86983e-08, 1.37206e-14, 4.8357e-08, 1, -0.0508683, 1.6755, 0.0892568)
+
+[node name="NEW Inner Eye" parent="Helen rig/Skeleton3D" index="5"]
+transform = Transform3D(1, -6.39488e-14, -1.54543e-13, 5.50671e-14, 1, 1.22281e-07, 1.1191e-13, -5.5226e-08, 1, 8.48518e-14, -1.19209e-07, 7.82311e-08)
+
+[node name="Body_Suit Bot" parent="Helen rig/Skeleton3D" index="6"]
+visible = false
+
+[node name="Body_Suit Top" parent="Helen rig/Skeleton3D" index="7"]
+visible = false
+
+[node name="Body_Tpose" parent="Helen rig/Skeleton3D" index="8"]
+surface_material_override/0 = ExtResource("2_n6e0v")
+surface_material_override/1 = ExtResource("2_n8dbs")
+
+[node name="Boots" parent="Helen rig/Skeleton3D" index="9"]
+visible = false
+
+[node name="bow_high Bra" parent="Helen rig/Skeleton3D" index="10"]
+visible = false
+
+[node name="bow_high Thong" parent="Helen rig/Skeleton3D" index="11"]
+visible = false
+
+[node name="Bra_high" parent="Helen rig/Skeleton3D" index="12"]
+visible = false
+
+[node name="Civi Shoes" parent="Helen rig/Skeleton3D" index="13"]
+visible = false
+
+[node name="Corset Dress_High" parent="Helen rig/Skeleton3D" index="14"]
+visible = false
+
+[node name="Crotch_piece" parent="Helen rig/Skeleton3D" index="15"]
+visible = false
+
+[node name="Elastigirl_Logo" parent="Helen rig/Skeleton3D" index="16"]
+visible = false
+
+[node name="Gloves" parent="Helen rig/Skeleton3D" index="19"]
+visible = false
+
+[node name="Gloves_long" parent="Helen rig/Skeleton3D" index="20"]
+visible = false
+
+[node name="Helen_Suit Belt" parent="Helen rig/Skeleton3D" index="21"]
+visible = false
+
+[node name="panties_High" parent="Helen rig/Skeleton3D" index="24"]
+visible = false
+
+[node name="Shirt" parent="Helen rig/Skeleton3D" index="25"]
+visible = false
+
+[node name="Swimsuit_High" parent="Helen rig/Skeleton3D" index="29"]
+visible = false

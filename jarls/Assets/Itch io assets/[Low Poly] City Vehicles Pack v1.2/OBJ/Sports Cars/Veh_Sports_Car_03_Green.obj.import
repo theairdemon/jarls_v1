@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ck5ccgm8wi4p"
+path="res://.godot/imported/Veh_Sports_Car_03_Green.obj-673f2abf9923f776262d32a9c2e0ec7b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Veh_Sports_Car_03_Green.obj-673f2abf9923f776262d32a9c2e0ec7b.mesh"]
+
+source_file="res://Assets/Itch io assets/[Low Poly] City Vehicles Pack v1.2/OBJ/Sports Cars/Veh_Sports_Car_03_Green.obj"
+dest_files=["res://.godot/imported/Veh_Sports_Car_03_Green.obj-673f2abf9923f776262d32a9c2e0ec7b.mesh", "res://.godot/imported/Veh_Sports_Car_03_Green.obj-673f2abf9923f776262d32a9c2e0ec7b.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

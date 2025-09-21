@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bmnkp08l88n7e"
+path="res://.godot/imported/Veh_Pickup_03_Blue.obj-9f73883cd5bedde012255ea690bc4cae.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Veh_Pickup_03_Blue.obj-9f73883cd5bedde012255ea690bc4cae.mesh"]
+
+source_file="res://Assets/Itch io assets/[Low Poly] City Vehicles Pack v1.2/OBJ/Pickup/Veh_Pickup_03_Blue.obj"
+dest_files=["res://.godot/imported/Veh_Pickup_03_Blue.obj-9f73883cd5bedde012255ea690bc4cae.mesh", "res://.godot/imported/Veh_Pickup_03_Blue.obj-9f73883cd5bedde012255ea690bc4cae.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
